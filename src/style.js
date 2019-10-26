@@ -35,3 +35,14 @@ export const h1Style = {
     fontSize: "32px",
     lineHeight: "44px",
 }
+
+export const linkCompStyle = {
+    position: "absolute",
+    width: '50px',
+    height: '25px',
+    left: "calc(50% - 25px)",
+    top: '60%',
+    border: '1px solid black',
+    padding: '1px',
+    textAlign: 'center',  
+}

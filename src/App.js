@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import * as style from './style';
 import { Table } from './components/table';
+import { LinkComp } from './components/link'
 import ReactMarkdown from 'react-markdown';
 
 const App = (props) => {
@@ -28,6 +29,12 @@ const App = (props) => {
             <ReactMarkdown source={markdown} />
           </div>
         </div>
+        <LinkComp 
+          linkPath='/link-clicked'
+          linkStyle={style.linkCompStyle}
+        >
+          Link
+        </LinkComp>
       </div>
     </body>
   );
